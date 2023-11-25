@@ -1,3 +1,88 @@
+# Table of content
+
+- [What's PHP?](#php)
+- [Syntax](#syntax)
+- [variable](#variables-scope)
+  - [Variables Scope](#variables-scope)
+- [Data Types](#data-types)
+  - [Integer](#integer)
+  - [Float](#float)
+  - [Boolean](#boolean)
+  - [Array](#array)
+  - [Object](#object) 
+  - [NULL](#null)
+- [PHP Math](#php-math)
+- [Constants](#constants)
+- [Operators](#pperators)
+  - [Arithmetic Operators](#arithmetic-operators)
+  - [Assignment Operators](#assignment-operators)
+  - [Comparison Operators](#comparison-operators)
+  - [Increment / Decrement Operators](#increment-decrement-operators)
+  - [Logical Operators](#logical-operators) 
+  - [String Operators](#string-operators)
+  - [Array Operators](#array-operators)
+  - [Conditional Assignment Operators](#conditional-assignment-operators)
+- [Conditional Statements](#conditional-statements)
+  - [if Statement](#if-statement)
+  - [if...else Statement](#ifelse-statement)
+  - [if...elseif...else Statement](#ifelseifelse-statement)
+  - [switch Statement](#switch-statement)
+- [Loops](#loops)
+  - [while Loop](#while-loop)
+  - [do while Loop](#do-while-loop)
+  - [for Loop](#for-loop)
+  - [foreach Loop](#foreach-loop)
+- [Functions](#functions)
+- [Arrays](#arrays)
+  - [Indexed Arrays](#indexed-arrays)
+  - [Associative Arrays](#associative-arrays)
+  - [Multidimensional Arrays](#multidimensional-arrays)
+  - [Sort Functions For Arrays](#sort-functions-for-arrays)
+- [Global Variables - Superglobals](#global-variables---superglobals)
+- [Regular Expressions](#regular-expressions)
+- [Form Handling](#formhandling)
+- [PHP Advanced](#php-advanced)
+  - [Date() Function](#date-function)
+  - [Include Files](#include-files)
+  - [File Open/Read/Write/Close](#file-openreadwriteclose)
+  - [File Upload](#file-upload)
+  - [Cookies](#cookies) 
+  - [Sessions](#sessions)
+  - [PHP Filter Extension](#php-filter_extension) 
+  - [Callback Functions](#callback-functions)
+  - [JSON](#json) 
+  - [Exception](#exception)
+- [MySQL Database](#mysql-database)
+  - [Connect to MySQL](#connect-to-mysql)
+  - [Create a MySQL Database](#create-a-mysql-database)
+  - [Create a MySQL Table](#create-a-mysql-table)
+  - [Insert Data Into MySQL](#insert-data-into-mysql)
+  - [Insert Multiple Records Into MySQL](#insert-multiple-records-into-mysql) 
+  - [MySQL Prepared Statements](#mysql-prepared-statements)
+  - [Select Data From a MySQL Database](#select-data-from-a-mysql-database)
+  - [Select and Filter Data From a MySQL Database](#select-and-filter-data-from-a-mysql-database)
+  - [Select and Order Data From a MySQL Database](#select-and-order-data-from-a-mysql-database)
+  - [Delete Data From a MySQL Table](#delete-data-from-a-mysql-table)
+  - [Update Data In a MySQL Table](#update-data-in-a-mysql-table) 
+  - [Limit Data Selections From a MySQL Database](#limit-data-selections-from-a-mysql-database)
+- [XML](#xml)
+  - [XML Parser](#xml-parser)
+  - [SimpleXML Parser](#simplexml-parser)
+    - [SimpleXML - Read From String](#simplexml-read-from-string)
+    - [SimpleXML - Read From File](#simplexml-read-from-file)
+    - [SimpleXML - Get Node/Attribute Values](#simplexml---get-nodeattribute-values)
+    - [Get Node Values of Specific Elements](#get-node-values-of-specific-elements)
+    - [Get Node Values - Loop](#get-node-values---loop) 
+    - [Get Attribute Values](#get-attribute-values)
+    - [Get Attribute Values - Loop](#get-attribute-values---loop)
+  - [XML Expat Parser](#xml-expat-parser)
+  - [XML DOM Parser](#xml-dom-parser)
+- [AJAX](#ajax)
+  - [AJAX Database](#ajax-database)
+  - [AJAX XML](#ajax-xml)
+  - [AJAX Live Search](#ajax-live-search)
+  - [AJAX Poll](#ajax-poll)
+
 # PHP
 PHP is a server scripting language, and a powerful tool for making dynamic and interactive Web pages. PHP code is executed on the server.
 
@@ -10,7 +95,6 @@ PHP is a server scripting language, and a powerful tool for making dynamic and i
 ## Comments
 ```php
 // This is a single-line comment
-
 # This is also a single-line comment
 ```
 Syntax for multiple-line comments:
@@ -601,7 +685,7 @@ $y = 10;
 echo ($x <=> $y); // returns +1 because $x is greater than $y
 ```
 
-## Increment / Decrement Operators
+## Increment-Decrement Operators
 Increment operators are used to increment a variable's value. decrement operators are used to decrement a variable's value.
 
 - "++$x" Pre-increment - Increments $x by one, then returns $x
